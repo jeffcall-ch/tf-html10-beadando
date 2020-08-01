@@ -125,6 +125,10 @@ nav a:hover {
     pointer-events: auto;
 }
 
+img:hover {
+    box-shadow: 0 0 0 8px yellow;
+}
+
 .profile-pic-mid {
     border-radius: 50%;
     width: 150px;
@@ -146,4 +150,40 @@ nav a:hover {
     margin-top: -75px;
     margin-left: 190px;
     pointer-events: auto;
+}
+
+
+/* no hover definition to keep other profile photos shown while hovering one */
+
+.profile-pic-left-no-hover {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -190px;
+    pointer-events: auto;
+}
+
+.profile-pic-mid-no-hover {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+}
+
+.profile-pic-right-no-hover {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: 190px;
 }
