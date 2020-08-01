@@ -1,5 +1,3 @@
-/* starter css */
-
 header {
     background-image: url("../img/festmeny2000x1500.jpg");
     background-repeat: no-repeat;
@@ -25,18 +23,18 @@ nav a {
     color: white;
     text-decoration: none;
     margin: 3%;
-    padding: 0.5%;
+    padding: 0.4%;
     font-size: 30px;
 }
 
 nav a:hover {
-    background: #E2B7E2;
+    background: rgb(206, 103, 86);
     color: #333333;
 }
 
 .active {
     color: #333333;
-    background: #E2B7E2;
+    background: rgb(206, 103, 86);
 }
 
 .row {
@@ -182,7 +180,7 @@ nav a:hover {
 }
 
 img:hover {
-    box-shadow: 0 0 0 5px yellow;
+    box-shadow: 0 0 0 5px rgb(206, 103, 86);
 }
 
 
@@ -279,4 +277,134 @@ div.description-text {
     font-size: 20px;
     font-family: 'Architects Daughter', cursive;
     font-style: normal;
+}
+
+
+/* page bottom */
+
+.bottom-row {
+    width: 100%;
+    position: absolute;
+    top: 95%;
+    padding: 0%;
+    margin-top: 80px;
+    background: rgb(153, 183, 199);
+}
+
+.bottom-row:after {
+    /* Clear floats after the columns  */
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bottom-column {
+    float: left;
+    padding: 20px;
+}
+
+.bottom-wide {
+    width: 40%;
+}
+
+.bottom-narrow {
+    width: 10%;
+}
+
+form {
+    /* margin-top: 60px; */
+}
+
+div.form {
+    padding-top: 30px;
+    font-family: Verdana;
+    font-size: 14px;
+    background: rgb(153, 183, 199);
+    float: left;
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    color: white;
+}
+
+.form-input {
+    background: white;
+    border: 1px solid #E0E0E0;
+    height: 30px;
+    width: 42.7%;
+    font-family: 'Architects Daughter';
+    padding: 5px;
+    margin: 10px;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+#message-area {
+    height: 80px;
+    width: 90%;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+/* info area */
+
+#infos {
+    background: rgb(153, 183, 199);
+    padding: 31px;
+}
+
+#infos p {
+    padding: 5px;
+    font-family: 'Architects Daughter';
+    font-size: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 10px;
+    background: rgb(206, 103, 86);
+    color: #333333;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e2a32e;
+    color: #696da3;
+}
+
+footer {
+    color: #333333;
+    background: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+.btn {
+    margin: 10px 5px 10px 5px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(206, 103, 86);
+    color: #696da3;
 }
