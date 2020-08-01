@@ -125,10 +125,6 @@ nav a:hover {
     pointer-events: auto;
 }
 
-img:hover {
-    box-shadow: 0 0 0 8px yellow;
-}
-
 .profile-pic-mid {
     border-radius: 50%;
     width: 150px;
@@ -150,6 +146,13 @@ img:hover {
     margin-top: -75px;
     margin-left: 190px;
     pointer-events: auto;
+}
+
+
+/* add ring around profile pic upon hover */
+
+img:hover {
+    box-shadow: 0 0 0 5px yellow;
 }
 
 
