@@ -189,8 +189,8 @@ img:hover {
     display: none;
     width: 30%;
     height: 150px;
-    position: fixed;
-    top: 12%;
+    position: absolute;
+    top: 4%;
     left: 33%;
     text-align: center;
 }
