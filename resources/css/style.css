@@ -3,7 +3,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    height: 350px;
+    height: 300px;
 }
 
 nav {
@@ -17,6 +17,7 @@ nav {
     text-transform: uppercase;
     text-align: center;
     position: fixed;
+    z-index: 1;
 }
 
 nav a {
@@ -24,7 +25,7 @@ nav a {
     text-decoration: none;
     margin: 3%;
     padding: 0.4%;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 nav a:hover {
@@ -75,6 +76,7 @@ nav a:hover {
 }
 
 .container-left:hover {
+    z-index: 1;
     opacity: 1;
     background-image: url("../img/barbi_paint.jpg");
     background-size: 100%;
@@ -96,6 +98,7 @@ nav a:hover {
 }
 
 .container-mid:hover {
+    z-index: 1;
     opacity: 1;
     background-image: url("../img/bruno_paint.jpg");
     background-size: 100%;
@@ -117,6 +120,7 @@ nav a:hover {
 }
 
 .container-right:hover {
+    z-index: 1;
     opacity: 1;
     background-image: url("../img/beni_paint.jpg");
     background-size: 100%;
@@ -130,13 +134,11 @@ nav a:hover {
 
 .profile-pic-left {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -75px;
-    margin-left: -190px;
+    width: 250px;
+    height: 250x;
+    position: absolute;
+    top: 32%;
+    left: 22%;
     pointer-events: auto;
 }
 
@@ -150,12 +152,11 @@ nav a:hover {
 
 .profile-pic-mid {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -75px;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 32%;
+    left: 42%;
     pointer-events: auto;
 }
 
@@ -165,13 +166,11 @@ nav a:hover {
 
 .profile-pic-right {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -75px;
-    margin-left: 190px;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 32%;
+    left: 62%;
     pointer-events: auto;
 }
 
@@ -184,44 +183,6 @@ img:hover {
 }
 
 
-/* no hover definition to keep other profile photos shown while hovering one */
-
-.profile-pic-left-no-hover {
-    opacity: 0.6;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -75px;
-    margin-left: -190px;
-}
-
-.profile-pic-mid-no-hover {
-    opacity: 0.6;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -75px;
-}
-
-.profile-pic-right-no-hover {
-    opacity: 0.6;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -75px;
-    margin-left: 190px;
-}
-
-
 /* profile description text */
 
 .hide {
@@ -230,7 +191,7 @@ img:hover {
     height: 150px;
     position: fixed;
     top: 12%;
-    left: 37%;
+    left: 33%;
     text-align: center;
 }
 
@@ -255,17 +216,18 @@ div.description-text {
     text-decoration: underline;
     font-family: 'Patrick Hand', cursive;
     font-style: normal;
+    color: rgb(206, 103, 86);
 }
 
 
 /* general description text */
 
 .general-description {
-    width: 30%;
+    width: 50%;
     height: 150px;
     position: absolute;
-    top: 62%;
-    left: 37%;
+    top: 77%;
+    left: 25%;
     text-align: center;
     border-radius: 30px;
     padding: 30px;
