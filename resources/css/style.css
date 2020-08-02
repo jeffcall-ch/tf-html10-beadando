@@ -65,7 +65,7 @@ nav a:hover {
 
 .container-left {
     position: absolute;
-    top: 50px;
+    top: 45px;
     left: 0px;
     width: 100%;
     height: 900px;
@@ -87,7 +87,7 @@ nav a:hover {
 
 .container-mid {
     position: absolute;
-    top: 50px;
+    top: 45px;
     left: 0px;
     width: 100%;
     height: 900px;
@@ -109,7 +109,7 @@ nav a:hover {
 
 .container-right {
     position: absolute;
-    top: 50px;
+    top: 45px;
     left: 0px;
     width: 100%;
     height: 900px;
@@ -247,7 +247,7 @@ div.description-text {
 .bottom-row {
     width: 100%;
     position: absolute;
-    top: 95%;
+    top: 90%;
     padding: 0%;
     margin-top: 80px;
     background: rgb(153, 183, 199);
