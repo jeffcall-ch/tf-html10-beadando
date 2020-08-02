@@ -17,14 +17,14 @@ nav {
     text-transform: uppercase;
     text-align: center;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
 
 nav a {
     color: white;
     text-decoration: none;
     margin: 3%;
-    padding: 0.4%;
+    padding: 0.45%;
     font-size: 25px;
 }
 
@@ -262,7 +262,7 @@ div.description-text {
 
 .bottom-column {
     float: left;
-    padding: 20px;
+    padding: 10px;
 }
 
 .bottom-wide {
@@ -287,16 +287,17 @@ div.form {
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 25px;
     text-transform: uppercase;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     text-decoration: underline;
     font-family: 'Patrick Hand', cursive;
     text-align: center;
     color: white;
 }
 
-.form-input {
+
+/* .form-input {
     background: white;
     border: 1px solid #E0E0E0;
     height: 30px;
@@ -315,20 +316,20 @@ textarea {
     width: 90%;
     padding-top: 10px;
     margin-bottom: 5px;
-}
+} */
 
 
 /* info area */
 
 #infos {
     background: rgb(153, 183, 199);
-    padding: 31px;
+    padding: 10px;
 }
 
 #infos p {
     padding: 5px;
     font-family: 'Architects Daughter';
-    font-size: 10px;
+    font-size: 8x;
     color: white;
     font-size: 20px;
 }
