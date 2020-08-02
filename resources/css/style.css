@@ -307,15 +307,6 @@ button:hover {
     color: #696da3;
 }
 
-footer {
-    color: #333333;
-    background: white;
-    text-align: center;
-    padding: 20px;
-    font-family: Verdana;
-    font-size: 12px;
-}
-
 .btn {
     margin: 10px 5px 10px 5px;
     background: transparent;
