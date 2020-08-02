@@ -3,7 +3,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    height: 300px;
+    height: 340px;
 }
 
 nav {
@@ -25,7 +25,7 @@ nav a {
     text-decoration: none;
     margin: 3%;
     padding: 0.45%;
-    font-size: 25px;
+    font-size: 29px;
 }
 
 nav a:hover {
@@ -137,7 +137,7 @@ nav a:hover {
     width: 200px;
     height: 200px;
     position: absolute;
-    top: 32%;
+    top: 38%;
     left: 26%;
     pointer-events: auto;
 }
@@ -155,7 +155,7 @@ nav a:hover {
     width: 200px;
     height: 200px;
     position: absolute;
-    top: 32%;
+    top: 38%;
     left: 44%;
     pointer-events: auto;
 }
@@ -169,7 +169,7 @@ nav a:hover {
     width: 200px;
     height: 200px;
     position: absolute;
-    top: 32%;
+    top: 38%;
     left: 62%;
     pointer-events: auto;
 }
@@ -190,7 +190,7 @@ img:hover {
     width: 30%;
     height: 120px;
     position: absolute;
-    top: 7%;
+    top: 12%;
     left: 33%;
     text-align: center;
 }
@@ -226,7 +226,7 @@ div.description-text {
     width: 50%;
     height: 150px;
     position: absolute;
-    top: 77%;
+    top: 84%;
     left: 25%;
     text-align: center;
     border-radius: 30px;
@@ -250,7 +250,7 @@ div.description-text {
     position: absolute;
     top: 90%;
     padding: 0%;
-    margin-top: 120px;
+    margin-top: 155px;
     background: rgb(153, 183, 199);
 }
 
@@ -299,7 +299,7 @@ button {
     margin-top: 10px;
     background: rgb(206, 103, 86);
     color: #333333;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Amatic SC', cursive;
     font-size: 18px;
     text-align: center;
     cursor: pointer;
